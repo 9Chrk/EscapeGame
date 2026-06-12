@@ -14,7 +14,7 @@ But : Un petit jeu du type jeu d’évasion (escape game)
       Le but du jeu est d’atteindre cette dernière.
 """
 
-import CONFIGS as cfg  # importation d'un fichier python
+import configs as cfg  # importation d'un fichier python
 import turtle as t     # importation du module graphique
 
 
