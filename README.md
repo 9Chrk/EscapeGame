@@ -2,16 +2,13 @@
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue)
 ![Turtle](https://img.shields.io/badge/Library-turtle-green)
-![License](https://img.shields.io/badge/license-MIT-green)
-
----
-
-## 📖 Description
 
 Escape Game est un petit jeu d’évasion réalisé en Python avec le module graphique `turtle`. Le joueur déplace un personnage dans un château représenté sous forme de plan, explore les pièces et les couloirs, récupère des objets et répond à des questions pour ouvrir les portes fermées.
 
 L’objectif est simple: atteindre la case de sortie du château en traversant le labyrinthe et en résolvant les énigmes qui bloquent le passage.
 
+> **Cours :** Programmation (INFO-F101) — BA1, Q1 — Université Libre de Bruxelles  
+> **Année académique :** 2022-2023
 ---
 
 ## 📸 Captures d’écran
@@ -25,12 +22,10 @@ L’objectif est simple: atteindre la case de sortie du château en traversant l
 ## Sommaire
 
 - [Fonctionnalités principales](#-fonctionnalités-principales)
-- [Prérequis](#-prérequis)
-- [Installation](#-installation)
+- [Prérequis](#️-prérequis)
+- [Installation](#️-installation)
 - [Lancement et exemples d'utilisation](#-lancement-et-exemples-dutilisation)
 - [Structure du projet](#-structure-du-projet)
-- [Auteurs](#-auteurs)
-- [Licence](#-licence)
 
 ---
 
@@ -108,15 +103,3 @@ EscapeGame/
 ├── LICENSE
 └── README.md
 ```
-
----
-
-## 👤 Auteurs
-
-- Jawad Cherkaoui
-
----
-
-## 📜 Licence
-
-Ce projet est distribué sous licence MIT.
