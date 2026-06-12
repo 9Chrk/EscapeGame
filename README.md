@@ -1,37 +1,122 @@
 # Escape Game
-![image](https://github.com/user-attachments/assets/6ccc2d4b-4733-408d-a2ae-e18ff4c6d468)
 
-## Description
-Ce projet est un jeu d'évasion (escape game) où le joueur contrôle un personnage se déplaçant dans un château représenté en plan. Le château est constitué de pièces, couloirs, murs, portes et objets. Le but du jeu est d'atteindre la sortie du château en répondant à des questions pour ouvrir les portes et en ramassant des objets.
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![Turtle](https://img.shields.io/badge/Library-turtle-green)
+![License](https://img.shields.io/badge/license-MIT-green)
 
-## Fichiers
-- `CONFIGS.py` : Contient les configurations du jeu telles que les couleurs, les dimensions et les fichiers de données.
-- `chateau.py` : Contient le code principal du jeu, y compris l'affichage du plan, la gestion des déplacements et des interactions avec les objets et les portes.
+---
 
-## Installation
-1. Assurez-vous d'avoir Python installé sur votre machine.
-2. Clonez ce dépôt ou téléchargez les fichiers `CONFIGS.py` et `chateau.py`.
+## 📖 Description
 
-## Utilisation
-1. Placez les fichiers de données (`plan_chateau.txt`, `dico_portes.txt`, `dico_objets.txt`) dans le même répertoire que les fichiers Python.
-2. Exécutez le fichier `chateau.py` pour démarrer le jeu :
-   ```bash
-   python3 chateau.py
-   ```
-3. Utilisez les touches fléchées pour déplacer le personnage dans le château.
+Escape Game est un petit jeu d’évasion réalisé en Python avec le module graphique `turtle`. Le joueur déplace un personnage dans un château représenté sous forme de plan, explore les pièces et les couloirs, récupère des objets et répond à des questions pour ouvrir les portes fermées.
 
-## Configuration
-Vous pouvez modifier les configurations du jeu dans le fichier `CONFIGS.py` :
-- Coordonnées des zones d'affichage
-- Couleurs des cases, murs, portes, objets, etc.
-- Position de départ du personnage
-- Fichiers de données à utiliser
+L’objectif est simple: atteindre la case de sortie du château en traversant le labyrinthe et en résolvant les énigmes qui bloquent le passage.
 
-## Auteur
-Jawad Cherkaoui
+---
 
-## Date
-7 novembre 2022
+## 📸 Captures d’écran
 
-## Licence
-Ce projet est sous licence MIT.
+| Démarrage | Indice | Question |
+| --- | --- | --- |
+| ![Démarrage](data/screenshots/start.png) | ![Indice](data/screenshots/indice.png) | ![Question](data/screenshots/question.png) |
+
+---
+
+## Sommaire
+
+- [Fonctionnalités principales](#-fonctionnalités-principales)
+- [Prérequis](#-prérequis)
+- [Installation](#-installation)
+- [Lancement et exemples d'utilisation](#-lancement-et-exemples-dutilisation)
+- [Structure du projet](#-structure-du-projet)
+- [Auteurs](#-auteurs)
+- [Licence](#-licence)
+
+---
+
+## ⚡ Fonctionnalités principales
+
+- Affichage du château à partir d’une matrice stockée dans un fichier texte.
+- Déplacement du personnage avec les flèches du clavier.
+- Gestion des murs, des couloirs, des portes, des objets et de la sortie.
+- Ouverture des portes en répondant à des questions associées aux cases.
+- Ramassage d’objets qui s’ajoutent à l’inventaire affiché à l’écran.
+- Affichage de messages d’état pendant la partie.
+- Génération d’un export du plan du château en fin d’affichage.
+
+---
+
+## 🛠️ Prérequis
+
+- Python 3.x.
+- Le module standard `turtle`, inclus avec Python.
+- Les fichiers de données du projet:
+   - `data/plan_chateau.txt`
+   - `data/dico_portes.txt`
+   - `data/dico_objets.txt`
+
+---
+
+## ⚙️ Installation
+
+```bash
+git clone <url-du-repo>
+cd EscapeGame
+```
+
+Aucune dépendance externe n’est nécessaire si Python est déjà installé.
+
+---
+
+## 🎮 Lancement et exemples d'utilisation
+
+```bash
+python3 chateau.py
+```
+
+### Contrôles
+
+- Déplacement: flèches directionnelles
+- Objectif: rejoindre la sortie jaune
+
+### Déroulement
+
+- Le joueur commence sur la case de départ définie dans `CONFIGS.py`.
+- Les cases orange correspondent aux portes à débloquer.
+- Les cases vertes correspondent aux objets à ramasser.
+- Les cases jaunes correspondent à la sortie.
+
+---
+
+## 📂 Structure du projet
+
+```text
+EscapeGame/
+├── CONFIGS.py                # Paramètres visuels et chemins des données
+├── chateau.py                # Logique principale du jeu
+├── data/
+│   ├── dico_objets.txt       # Correspondance positions -> objets
+│   ├── dico_portes.txt       # Correspondance positions -> questions/réponses
+│   ├── plan_chateau.txt      # Matrice du château
+│   ├── docs/
+│   │   ├── chateau.eps       # Export du plan
+│   │   └── chateau.pdf       # Export du plan
+│   └── screenshots/
+│       ├── indice.png
+│       ├── question.png
+│       └── start.png
+├── LICENSE
+└── README.md
+```
+
+---
+
+## 👤 Auteurs
+
+- Jawad Cherkaoui
+
+---
+
+## 📜 Licence
+
+Ce projet est distribué sous licence MIT.
