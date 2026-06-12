@@ -119,7 +119,7 @@ def afficher_plan(matrice):
             t.tracer(0)     # fonction utilisée pour activer ou désactiver l'animation
             tracer_case(case, couleur, pas)
             t.update()      # affiche le plan du chateau élément par élément
-    t.getcanvas().postscript(file="./docs/chateau.eps")  # crée un fichier canvas du plan du chateau
+    t.getcanvas().postscript(file="./data/docs/chateau.eps")  # crée un fichier canvas du plan du chateau
 
 
 # PARTIE 2 : Gestion du déplacement dans le chateau --------------------------------------------------------------------
