@@ -1,15 +1,18 @@
 # Escape Game
 
-![Python](https://img.shields.io/badge/Python-3.x-blue)
-![Turtle](https://img.shields.io/badge/Library-turtle-green)
+![Python](https://img.shields.io/badge/Python-3.x-blue?style=flat-square)
+![Turtle](https://img.shields.io/badge/Library-turtle-green?style=flat-square)
 
-Escape Game est un petit jeu d’évasion réalisé en Python avec le module graphique `turtle`. Le joueur déplace un personnage dans un château représenté sous forme de plan, explore les pièces et les couloirs, récupère des objets et répond à des questions pour ouvrir les portes fermées.
+Escape Game est un **jeu d’évasion en Python avec Turtle**. Explorez les pièces et les couloirs d’un château, ramassez des objets et répondez aux énigmes pour ouvrir les portes qui bloquent le passage.
 
-L’objectif est simple: atteindre la case de sortie du château en traversant le labyrinthe et en résolvant les énigmes qui bloquent le passage.
+Le personnage se déplace avec les flèches du clavier. L’objectif est d’atteindre la sortie du château, représenté par un plan chargé depuis les fichiers de données du projet.
 
-> **Cours :** Programmation (INFO-F101) — BA1, Q1 — Université Libre de Bruxelles  
-> **Année académique :** 2022-2023
+> Projet académique ULB — INFO-F101.
+> Programmation · 2022–2023
+
 ---
+
+<a id="captures-decran"></a>
 
 ## 📸 Captures d’écran
 
@@ -19,17 +22,19 @@ L’objectif est simple: atteindre la case de sortie du château en traversant l
 
 ---
 
-## Sommaire
+## 📖 Sommaire
 
-- [Fonctionnalités principales](#-fonctionnalités-principales)
-- [Prérequis](#️-prérequis)
-- [Installation](#️-installation)
-- [Lancement et exemples d'utilisation](#-lancement-et-exemples-dutilisation)
-- [Structure du projet](#-structure-du-projet)
+- [Fonctionnalités](#fonctionnalites)
+- [Prérequis](#prerequis)
+- [Installation](#installation)
+- [Lancement et utilisation](#lancement-et-utilisation)
+- [Structure du projet](#structure-du-projet)
 
 ---
 
-## ⚡ Fonctionnalités principales
+<a id="fonctionnalites"></a>
+
+## ✨ Fonctionnalités
 
 - Affichage du château à partir d’une matrice stockée dans un fichier texte.
 - Déplacement du personnage avec les flèches du clavier.
@@ -41,7 +46,9 @@ L’objectif est simple: atteindre la case de sortie du château en traversant l
 
 ---
 
-## 🛠️ Prérequis
+<a id="prerequis"></a>
+
+## 🧰 Prérequis
 
 - Python 3.x.
 - Le module standard `turtle`, inclus avec Python.
@@ -52,10 +59,12 @@ L’objectif est simple: atteindre la case de sortie du château en traversant l
 
 ---
 
-## ⚙️ Installation
+<a id="installation"></a>
+
+## 📦 Installation
 
 ```bash
-git clone <url-du-repo>
+git clone https://github.com/9Chrk/EscapeGame.git
 cd EscapeGame
 ```
 
@@ -63,7 +72,9 @@ Aucune dépendance externe n’est nécessaire si Python est déjà installé.
 
 ---
 
-## 🎮 Lancement et exemples d'utilisation
+<a id="lancement-et-utilisation"></a>
+
+## ▶️ Lancement et utilisation
 
 ```bash
 python3 chateau.py
@@ -82,6 +93,8 @@ python3 chateau.py
 - Les cases jaunes correspondent à la sortie.
 
 ---
+
+<a id="structure-du-projet"></a>
 
 ## 📂 Structure du projet
 
