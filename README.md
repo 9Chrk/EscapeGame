@@ -10,8 +10,6 @@ Le personnage se déplace avec les flèches du clavier. L’objectif est d’att
 > Projet académique ULB — INFO-F101.
 > Programmation · 2022–2023
 
----
-
 <a id="captures-decran"></a>
 
 ## 📸 Captures d’écran
@@ -30,8 +28,6 @@ Le personnage se déplace avec les flèches du clavier. L’objectif est d’att
 - [Lancement et utilisation](#lancement-et-utilisation)
 - [Structure du projet](#structure-du-projet)
 
----
-
 <a id="fonctionnalites"></a>
 
 ## ✨ Fonctionnalités
@@ -44,8 +40,6 @@ Le personnage se déplace avec les flèches du clavier. L’objectif est d’att
 - Affichage de messages d’état pendant la partie.
 - Génération d’un export du plan du château en fin d’affichage.
 
----
-
 <a id="prerequis"></a>
 
 ## 🧰 Prérequis
@@ -57,8 +51,6 @@ Le personnage se déplace avec les flèches du clavier. L’objectif est d’att
    - `data/dico_portes.txt`
    - `data/dico_objets.txt`
 
----
-
 <a id="installation"></a>
 
 ## 📦 Installation
@@ -69,8 +61,6 @@ cd EscapeGame
 ```
 
 Aucune dépendance externe n’est nécessaire si Python est déjà installé.
-
----
 
 <a id="lancement-et-utilisation"></a>
 
@@ -91,8 +81,6 @@ python3 chateau.py
 - Les cases orange correspondent aux portes à débloquer.
 - Les cases vertes correspondent aux objets à ramasser.
 - Les cases jaunes correspondent à la sortie.
-
----
 
 <a id="structure-du-projet"></a>
 
