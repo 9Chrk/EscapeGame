@@ -14,9 +14,11 @@ Le personnage se déplace avec les flèches du clavier. L’objectif est d’att
 
 ## 📸 Captures d’écran
 
-| Démarrage | Indice | Question |
-| --- | --- | --- |
-| ![Démarrage](data/screenshots/start.png) | ![Indice](data/screenshots/indice.png) | ![Question](data/screenshots/question.png) |
+![Démarrage](data/screenshots/start.png)
+
+| Indice | Question |
+| --- | --- |
+| ![Indice](data/screenshots/indice.png) | ![Question](data/screenshots/question.png) |
 
 ---
 
