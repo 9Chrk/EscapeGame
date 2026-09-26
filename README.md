@@ -7,7 +7,7 @@ Escape Game est un **jeu d’évasion en Python avec Turtle**. Explorez les piè
 
 Le personnage se déplace avec les flèches du clavier. L’objectif est d’atteindre la sortie du château, représenté par un plan chargé depuis les fichiers de données du projet.
 
-> Projet académique ULB — INFO-F101.
+> Projet académique ULB — INFO-F101
 > Programmation · 2022–2023
 
 <a id="captures-decran"></a>
